@@ -1,0 +1,169 @@
+{
+    "header": {
+        "a-propos": "A propos",
+        "services": "Services",
+        "expertise": "Expertise",
+        "competence": "Compétences",
+        "references": "Références",
+        "contact": "Contact"
+    },
+    "sections": [
+        {
+            "key": "intro",
+            "template": "home",
+            "css": "section-home",
+            "data": {
+                "tagline": "TECH LEAD / EXPERT INTEGRATION",
+                "title": "Architecture Application & Intégration de Système",
+                "description": "Plus de 20 ans d'expertise en intégration systèmes, architecture applicative et pilotage de projet IT pour des grand comptes",
+                "discover": "Découvrez nos services",
+                "stats": [
+                    { "value": "20+", "label": "Année d'expérience" },
+                    { "value": "10+", "label": "Grands comptes" },
+                    { "value": "30+", "label": "Projets livrés" }
+                ]
+            }
+        },
+        {
+            "key": "a-propos",
+            "template": "text-blocks",
+            "css": "section-text-blocks",
+            "data": {
+                "section-title": "A propos",
+                "section-subtitle": "Qui sommes-nous ?",
+                "left-title": "HJR Consulting",
+                "left-description": [
+                    "Fondé par <strong>Haja Razafindrazaka</strong>, ingénieur en informatique diplômé de l'Ecole Nationale d'Informatique et titulaire d'un Master 2 en Management de l'IAE Paris - Sorbonne Business School, <strong>HJR Consulting</strong> est un cabinet de conseil spécialisé dans l'intégration de systèmes et l'architecture applicative.",
+                    "Fort de plus de <strong>20 ans d'expérience</strong> au sein de grands comptes tels que la Banque de France, GEFCO, COVEA, l'Oréal ou encore Total, nous accompagnons les entreprises dans leurs projets de transformation digitale, de la conception à la mise en production.",
+                    "Notre approche allie expertise technique pointue et vision stratégique, pour des solutions robustes, évolutives et alignées avec vos objectifs métiers."
+                ],
+                "block": [
+                    { "title": "Fiabilité", "description": "Des engagements tenus et une rigueur issue du secteur bancaire et financier.", "icon": "bi-shield" },
+                    { "title": "Polyvalence", "description": "Une maîtrise complète de la chaîne technique : du développement fullstack au DevOps.", "icon": "bi-globe" },
+                    { "title": "Accompagnement", "description": "Un suivi personnalisé et une communication transparente à chaque étape du projet.", "icon": "bi-people" },
+                    { "title": "Performance", "description": "Des solutions optimisées, de la conception à la mise en production et au-delà.", "icon": "bi-graph-up" }
+                ]
+            }
+        },
+        {
+            "key": "services",
+            "template": "listing",
+            "css": "section-listing",
+            "data": {
+                "section-title": "Nos services",
+                "section-subtitle": "Quels sont les services que nous proposons",
+                "list": [
+                    {
+                        "title": "Développement Web & mobile",
+                        "description": "Création d'applications web et mobile sur mesure, adaptées à vos besoins spécifiques. Nous utilisons les dernières technologies pour garantir performance et évolutivité.",
+                        "items": [
+                            "Applications web progressives (PWA)",
+                            "Applications mobiles natives et hybrides",
+                            "E-commerce et marketplaces",
+                            "Plateformes SaaS"
+                        ]
+                    },
+                    {
+                        "title": "Solutions Cloud",
+                        "description": "Migration, hébergement et gestion de vos infrastructures cloud. Nous vous accompagnons dans votre transition vers le cloud avec AWS, Azure et Google Cloud.",
+                        "items": [
+                            "Migration vers le cloud",
+                            "Architecture cloud native",
+                            "Optimisation des coûts"
+                        ]
+                    }
+                ]
+            }
+        },
+        {
+            "key": "expertise",
+            "template": "icon-grid",
+            "css": "section-icon-grid",
+            "data": {
+                "section-title": "Nos Domaines d'Expertise",
+                "section-subtitle": "Des solutions sur mesure pour répondre aux enjeux de votre système d'information",
+                "list": [
+                    { "title": "Intégration de Système", "description": "Construction d'interfaces inter-applicatives : APIM, MFT, ESB, SOAP, REST, MicroServices, Graph API, Automatisation de processus métier (BPM).", "icon": "bi-diagram-3" },
+                    { "title": "Architecture Applicative", "description": "Conception d'architectures REST, SOAP, Micro Services, Urbanisation du SI. Mise en place de CI/CD on-premise et cloud (OpenShift, Docker).", "icon": "bi-building" },
+                    { "title": "Maintenance & Optimisation", "description": "Gestion du bon fonctionnement, maintenance et optimisation d'application. Pilotage des migrations et évolutions techniques. Support à l'exploitation.", "icon": "bi-tools" },
+                    { "title": "Gestion de Projet & AMOA", "description": "Pilotage de projets, encadrement d'équipes, recueil et analyse de besoins, rédaction de spécifications, animation d'ateliers et conduite de la recette.", "icon": "bi-kanban" }
+                ]
+            }
+        },
+        {
+            "key": "competence",
+            "template": "badge-grid",
+            "css": "section-badge-grid",
+            "data": {
+                "section-title": "Compétences Techniques",
+                "section-subtitle": "Un large spectre technologique maîtrisé",
+                "list": [
+                    { "title": "Languages", "badges": ["Java", "TypeScript", "JavaScript", "C#", "Python", "Shell", "PL/SQL"] },
+                    { "title": "Frameworks & Outils", "badges": ["Spring Boot", "Angular", "Django", "RabbitMQ", "NodeJS", "ASP.NET"] },
+                    { "title": "DevOps & CI/CD", "badges": ["Docker", "OpenShift", "GitLab", "Jenkins", "Maven", "Sonar", "Artifactory"] },
+                    { "title": "Bases de Données", "badges": ["PostgreSQL", "SQL Server", "Oracle", "MySQL"] },
+                    { "title": "Architecture & Intégration", "badges": ["REST", "SOAP", "Micro Services", "APIM", "ESB", "MFT", "SSIS"] },
+                    { "title": "Sécurité & Réseaux", "badges": ["OAuth2", "OIDC", "SAMLv2", "Kerberos", "SSL/TLS", "Graph API"] }
+                ]
+            }
+        },
+        {
+            "key": "references",
+            "template": "card-grid",
+            "css": "section-card-grid",
+            "data": {
+                "section-title": "Nos Références",
+                "section-subtitle": "Des clients prestigieux qui nous font confiance",
+                "list": [
+                    { "title": "Banque de France", "description": "Tech Lead Expert - Architecture Applicative, Intégration de système, développement fullStack." },
+                    { "title": "GEFCO Corporate", "description": "Business Analyst AMOA/AMOE - Système d'échange de flux, intégration TMS." },
+                    { "title": "COVEA Immobilier", "description": "Chef de projet - Dématérialisation, gestion de processus, migrations techniques." }
+                ]
+            }
+        },
+        {
+            "key": "contact",
+            "template": "contact",
+            "css": "section-contact",
+            "data": {
+                "section-title": "Contactez-nous",
+                "section-subtitle": "Discutons de votre projet",
+                "info": [
+                    { "icon": "bi-geo-alt", "title": "Adresse", "value": "Paris, France", "href": null },
+                    { "icon": "bi-envelope", "title": "Email", "value": "contact@hjr-consulting.fr", "href": "mailto:contact@hjr-consulting.fr" },
+                    { "icon": "bi-telephone", "title": "Téléphone", "value": "+33 (0)1 XX XX XX XX", "href": "tel:+33100000000" }
+                ],
+                "form": {
+                    "name": "Nom",
+                    "email": "Email",
+                    "subject": "Sujet",
+                    "message": "Votre message..."
+                },
+                "button": "Envoyer votre message"
+            }
+        }
+    ],
+    "footer": {
+        "subtitle": "Expert en intégration de système et applicative depuis plus de 20 ans.",
+        "navigation": [
+            {
+                "title": "Navigation",
+                "a-propos": "A propos",
+                "services": "Services",
+                "expertise": "Expertise",
+                "competence": "Compétences",
+                "references": "Références",
+                "contact": "Contact"
+            }
+        ],
+        "services": [
+            {
+                "title": "Services",
+                "integration": "Intégration",
+                "architecture": "Architecture",
+                "maintenance": "Maintenance",
+                "gestion de projet": "Gestion de Projets"
+            }
+        ]
+    }
+}
